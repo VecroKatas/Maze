@@ -1,6 +1,4 @@
-﻿using System.Globalization;
-
-int width = 10, height = 12;
+﻿int width = 10, height = 12;
 int blockFrequency = 28;
 Random random = new Random();
 Dog dog = new Dog(random.Next(0, width), random.Next(0, height));
@@ -50,28 +48,14 @@ void GetInput()
 {
     ConsoleKeyInfo input = Console.ReadKey();
 
-    switch (input.Key)
+    (deltaInput.x, deltaInput.y) = input.Key switch
     {
-        case ConsoleKey.W or ConsoleKey.UpArrow:
-        {
-            (deltaInput.x, deltaInput.y) = (0, -1);
-            break;
-        }
-        case ConsoleKey.S or ConsoleKey.DownArrow:
-        {
-            (deltaInput.x, deltaInput.y) = (0, 1);
-            break;
-        }
-        case ConsoleKey.A or ConsoleKey.LeftArrow: {
-            (deltaInput.x, deltaInput.y) = (-1, 0);
-            break;
-        }
-        case ConsoleKey.D or ConsoleKey.RightArrow: {
-            (deltaInput.x, deltaInput.y) = (1, 0);
-            break;
-        }
-            default: break;
-    }
+        ConsoleKey.W or ConsoleKey.UpArrow => (0, -1),
+        ConsoleKey.S or ConsoleKey.DownArrow => (0, 1),
+        ConsoleKey.A or ConsoleKey.LeftArrow => (-1, 0),
+        ConsoleKey.D or ConsoleKey.RightArrow => (1, 0),
+        _ => (0, 0)
+    };
 }
 
 void Logic()
@@ -149,12 +133,6 @@ struct Vector2
     public int y;
     
     public Vector2(int _x, int _y)
-    {
-        x = _x;
-        y = _y;
-    }
-
-    public void Set(int _x, int _y)
     {
         x = _x;
         y = _y;
