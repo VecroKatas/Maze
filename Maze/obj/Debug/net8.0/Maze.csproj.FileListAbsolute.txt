@@ -1,0 +1,15 @@
+D:\Homeworks\GameDev\Maze\Maze\bin\Debug\net8.0\Maze.exe
+D:\Homeworks\GameDev\Maze\Maze\bin\Debug\net8.0\Maze.deps.json
+D:\Homeworks\GameDev\Maze\Maze\bin\Debug\net8.0\Maze.runtimeconfig.json
+D:\Homeworks\GameDev\Maze\Maze\bin\Debug\net8.0\Maze.dll
+D:\Homeworks\GameDev\Maze\Maze\bin\Debug\net8.0\Maze.pdb
+D:\Homeworks\GameDev\Maze\Maze\obj\Debug\net8.0\Maze.GeneratedMSBuildEditorConfig.editorconfig
+D:\Homeworks\GameDev\Maze\Maze\obj\Debug\net8.0\Maze.AssemblyInfoInputs.cache
+D:\Homeworks\GameDev\Maze\Maze\obj\Debug\net8.0\Maze.AssemblyInfo.cs
+D:\Homeworks\GameDev\Maze\Maze\obj\Debug\net8.0\Maze.csproj.CoreCompileInputs.cache
+D:\Homeworks\GameDev\Maze\Maze\obj\Debug\net8.0\Maze.sourcelink.json
+D:\Homeworks\GameDev\Maze\Maze\obj\Debug\net8.0\Maze.dll
+D:\Homeworks\GameDev\Maze\Maze\obj\Debug\net8.0\refint\Maze.dll
+D:\Homeworks\GameDev\Maze\Maze\obj\Debug\net8.0\Maze.pdb
+D:\Homeworks\GameDev\Maze\Maze\obj\Debug\net8.0\Maze.genruntimeconfig.cache
+D:\Homeworks\GameDev\Maze\Maze\obj\Debug\net8.0\ref\Maze.dll
